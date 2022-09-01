@@ -208,27 +208,35 @@ begin
   clrscr;
   
   // recebe o valor do deposito
+  
   writeln ('Digite o valor do deposito :');
   
   // ler deposito
+  
   read (deposito);
   
   // recebe o valor da taxa de juros
+  
   writeln ('Digite o valor da taxa de juros :');
   
   // ler taxa de juros
+  
   read (taxa);
   
 // calcula renda, deposito e taxa
+
 rend:= deposito*(taxa/100);
 
 // calcula deposito e renda
+
 total:= deposito+rend;
 
 // mostra o valor do rendimento
+
 writeln ('O valor do rendimento é de ',rend :5:2, ' reais');
 
 // mostra o valor total apos rendimento
+
 writeln ('O valor total apos o rendimento é de ',total :5:2, 'reais');
 
 end.
